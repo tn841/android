@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.itwill.a05relativelayout.MainActivity">
+
+    <Button
+        android:text="TOP_LEFT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/button" />
+
+    <Button
+        android:text="TOP_CENTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/button2" />
+
+    <Button
+        android:text="LEFT_BOTTOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_alignParentBottom="true"
+       />
+
+    <Button
+        android:text="RIGHT_BOTTOM"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:id="@+id/button6" />
+
+    <Button
+        android:text="to_left_of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button8"
+        android:layout_toLeftOf="@+id/center"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:text="Above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button9"
+        android:layout_above="@id/center"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_toRightOf="@id/center"
+        android:layout_centerInParent="true"/>
+
+    <Button
+        android:text="RIGHT_TOP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_top"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:text="CENTER"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/center"
+        android:layout_centerInParent="true"
+        />
+
+    <Button
+        android:text="below"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button10"
+        android:layout_below="@id/center"
+        android:layout_centerInParent="true" />
+</RelativeLayout>

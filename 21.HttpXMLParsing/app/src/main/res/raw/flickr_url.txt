@@ -1,0 +1,6 @@
+http://api.flickr.com/services/feeds/photos_public.gne?id=26648248@N04
+http://api.flickr.com/services/feeds/geo/?id=31911236@N07&lang=ko-kr
+XML
+http://api.flickr.com/services/feeds/photos_public.gne?id=117992213@N05&format=rest
+JSON
+http://api.flickr.com/services/feeds/photos_public.gne?id=117992213@N05&format=json

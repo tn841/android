@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context="com.itwill.a04linearlayout.MainActivity"
+    android:background="#b0ddf4">
+
+
+    <TextView
+        android:text="R"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/textView2"
+        android:background="#db3d3d"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="100px"
+
+        />
+
+    <TextView
+        android:text="G"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/textView3"
+        android:background="#3aa63a"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="100px"
+        />
+
+    <TextView
+        android:text="B"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/textView"
+        android:background="#3535a9"
+        android:layout_weight="0.1"
+        android:gravity="center_horizontal|center_vertical"
+        android:textSize="100px"
+        />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textview2_content">
+        1.&lt;이름&gt;:KIM\n
+        2.전화번호:010-0011-0001\n
+        3.홈페이지:http://naver.com\n
+        4.이메일:tn841@naver.com
+    </string>
+    <string name="textview1_title">
+        텍스트 뷰
+    </string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="textview2_content">
+        1.&lt;Name&gt;:KIM\n
+        2.Phone:010-0011-0001\n
+        3.Homepage:http://naver.com\n
+        4.Email:tn841@naver.com
+    </string>
+    <string name="textview1_title">
+        Text View
+    </string>
+</resources>

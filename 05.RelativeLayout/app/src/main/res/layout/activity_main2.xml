@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    tools:context="com.itwill.a05relativelayout.MainActivity">
+
+    <TextView
+        android:text="URL:"
+        android:textSize="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="17px"
+        android:id="@+id/textView" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:id="@+id/editText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/textView"
+        />
+
+    <Button
+        android:text="cancle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_alignParentRight="true"
+        android:id="@+id/button11" />
+
+    <Button
+        android:text="enter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_toLeftOf="@id/button11"
+        android:id="@+id/button12" />
+
+</RelativeLayout>

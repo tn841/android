@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.itwill.a06_01framelayout.MainActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/lala"
+            android:id="@+id/imageView2"
+            android:scaleType="centerInside"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#33220000"
+        android:layout_weight="0.45">
+
+        <TextView
+            android:text="city of stars"
+            android:gravity="bottom|center"
+            android:textSize="70px"
+            android:textColor="#88ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/textView" />
+    </LinearLayout>
+
+</FrameLayout>

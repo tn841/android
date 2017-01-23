@@ -1,0 +1,33 @@
+<<JSON>>
+https://api.foursquare.com/v2/venues/explore?ll=37.499597,127.031372&radius=250&limit=50&oauth_token=45HKGUJ5WESVY2X1GD0BNDOGWABCPCG2GUH5BWBR2NUXZG5L&v=20170111
+http://api.androidhive.info/contacts/
+
+
+{"contacts": [ 
+        { 
+                "id": "c200", 
+                "name": "Ravi Tamada", 
+                "email": "ravi@gmail.com", 
+                "address": "xx-xx-xxxx,x - street, x - country", 
+                "gender" : "male", 
+                "phone": { 
+                    "mobile": "+91 0000000000", 
+                    "home": "00 000000", 
+                    "office": "00 000000"
+                } 
+        }, 
+        { 
+                "id": "c201", 
+                "name": "Johnny Depp", 
+                "email": "johnny_depp@gmail.com", 
+                "address": "xx-xx-xxxx,x - street, x - country", 
+                "gender" : "male", 
+                "phone": { 
+                    "mobile": "+91 0000000000", 
+                    "home": "00 000000", 
+                    "office": "00 000000"
+		}
+	},
+	....
+	]
+}
