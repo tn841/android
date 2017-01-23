@@ -10,8 +10,57 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.itwill.user.http.client.MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:text="USER LOGIN"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_below="@+id/writeB"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/loginB" />
+
+    <Button
+
+        android:text="USER WRITE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/writeB"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="USER LIST"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/loginB"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/listB" />
+
+    <Button
+        android:text="USER VIEW"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/listB"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/viewB" />
+
+    <EditText
+        android:layout_marginTop="250dp"
+        android:gravity="left|top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="result xml"
+        android:ems="10"
+        android:id="@+id/resultEditText"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:text="USER LOGOUT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/viewB"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/logoutB" />
 </RelativeLayout>
