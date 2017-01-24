@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/email_menu"
+        android:title="email"
+        android:icon="@android:drawable/ic_dialog_email"
+        app:showAsAction="ifRoom"
+        />
+    <item android:id="@+id/map_menu"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="map"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/sms_menu"
+        android:title="sms"
+        app:showAsAction="ifRoom"/>
+    <item android:id="@+id/set_menu"
+        android:title="set"
+        app:showAsAction="ifRoom"/>
+
+</menu>
