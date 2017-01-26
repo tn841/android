@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html> 
+<html> 
+	<head> 
+	<meta charset="utf-8">
+	<title>헤더 예제</title> 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<link rel="stylesheet" type="text/css" href="twitter.css" />
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="twitter.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head> 
+<body>
+
+<div data-role="page" id="reviewsPage" data-theme="a">
+	<div data-role="header">
+		<h1>리뷰</h1>
+		
+		<a href="twitter.html" id="twitterBtn" class="ui-btn-right" data-icon="action" data-iconpos="notext"></a>
+	
+	</div>
+	
+	<div data-role="content">
+		<ul data-role="listview" data-inset="true" data-theme="a">
+			<li data-role="list-divider">리뷰 평점</li>
+			<li>
+				<img src="images/X-MenFirstClass.jpg">
+				<h3>엑스맨</h3>
+				<p><span class="ui-li-rating">90%</span><strong>의 관객이 만족!</strong></p>
+				<p>평가자 수: <em>1,588</em></p>
+			</li>
+		</ul>
+		
+		<ul data-role="listview" data-inset="true" data-theme="a">
+			<li data-role="list-divider">사용자 리뷰</li>
+			<li>
+			  <a href="#">
+				<img src="images/111-user.png" class="ui-li-icon">
+				<p><strong>추천합니다!</strong></p>
+				<p>이 영화는 주옥같은 대사와 화려한 볼거리를 제공합니다. 배역에 꼭 맞는 캐스팅입니다.</p>
+			  </a>
+			</li>
+			<li>
+			  <a href="#">
+				<img src="images/111-user.png" class="ui-li-icon">
+				<p><strong>추천합니다!</strong></p>
+				<p>엑스맨 시리즈 중에 최고인 것 같아요</p>
+			  </a>
+			</li>	
+			<li>
+			  <a href="#">
+				<img src="images/111-user.png" class="ui-li-icon">
+				<p><strong>추천합니다!</strong></p>
+				<p>최고로 멋진 특수효과와 스토리를 가지고 있네요.</p>
+		      </a>
+			</li>	
+			<li>
+				<p><a href="#">다음 리뷰 보기...</a></p>
+				<p>1-3 of 15 total</p>
+			</li>							
+		</ul>				
+	</div>
+</div>
+
+</body>
+</html>
+
